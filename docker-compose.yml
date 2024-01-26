@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  procurement_app:
+    container_name: procurement_container
+    image: docker-procurement-reactjs
+    build: .
+    ports:
+      - "3000:3000"
